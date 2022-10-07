@@ -3,7 +3,9 @@ package frc.robot.commands;
 import edu.wpi.first.wpilibj2.command.CommandBase;
 
 public class DriveWithControllers extends CommandBase {
-    
+    double rightThrottle = 0.0;
+    double leftThrottle = 0.0;
+    boolean quickturn = false;
     /**
      * PN: 
      * fields: a Drivetrain, a double 'rightThrottle', a double 'leftThrottle', a double 'steering' and a boolean 'quickturn' (private final, as always)
