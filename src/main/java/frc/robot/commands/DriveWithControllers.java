@@ -17,6 +17,19 @@ public class DriveWithControllers extends CommandBase {
      *  
      *    
      */
+    
+
+    private double rightThrottle;
+    private double leftThrottle;
+    private double steering;
+    private boolean quickturn;
+    private Drivetrain driveTrain;
+    public DriveWithContollers(){
+
+        
+
+    }
+    
 
     
 }
